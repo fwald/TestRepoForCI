@@ -10,3 +10,5 @@ The dependencies for this project are handled by Maven. Consequently, you just n
 
 ## Building and testing the program
 On a terminal at the root of the project directory, the command `mvn test` will fetch the dependencies, compile the source code, run the tests located in `src/test` and output the results in the console.
+
+test1
