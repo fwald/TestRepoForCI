@@ -9,7 +9,7 @@
   <version>1.0</version>
 
   <name>TestRepoForCI</name>
-  <description>A simple TestRepoForCI.</description>
+  <description>A simple repository to test the CI server.</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,9 +49,6 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
-          <configuration>
-            <release>11</release>            <!-- java version 11 -->
-          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
