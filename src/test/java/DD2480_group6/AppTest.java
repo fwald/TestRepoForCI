@@ -42,7 +42,7 @@ public class AppTest
     {
         App app = new App();
         assertTrue(app.multiply(5, 5) == 25);
-        assertFalse(app.multiply(1, 0) == 0);
+        assertFalse(app.multiply(1, 0) == 1);
     }
     public static void fibonacci()
     {
