@@ -37,7 +37,7 @@ public class AppTest
     public static void addTwoPlusTwo()
     {
         App app = new App();
-        assertTrue(app.addTwoPlusTwo() == 4);
+        assertTrue(!app.addTwoPlusTwo() == 4);
         assertFalse(app.addTwoPlusTwo() == 5);
     }
 
